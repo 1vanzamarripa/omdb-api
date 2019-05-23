@@ -1,4 +1,4 @@
-import json
+#import json
 import requests
 import sys
 import argparse
@@ -22,7 +22,8 @@ def get_rating_from_api():
   response = requests.get(api_url)
 
   if response.status_code == 200:
-    return json.loads(response.content.decode('utf-8'))
+    #return json.loads(response.content.decode('utf-8'))
+    return response.json()
   else:
     return None
 
