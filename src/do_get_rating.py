@@ -12,7 +12,7 @@ api_url_base = 'http://www.omdbapi.com/?'
 
 if len(sys.argv) < 2:
   print('ERROR: Please pass a movie title as argument')
-  exit()
+  sys.exit()
 else:
   movie = sys.argv[1]
 
