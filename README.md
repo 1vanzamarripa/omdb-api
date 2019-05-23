@@ -1,6 +1,6 @@
 # omdb-api
 
-Small program in Pyton that queries this publicly available API to get Rotten Tomatoes rating for a specific movie:
+Small program in Python that queries this publicly available API to get Rotten Tomatoes rating for a specific movie:
 http://www.omdbapi.com/
 
 Part 1 – Dockerfile
